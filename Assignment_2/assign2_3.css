@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #4a5759;
+    margin: 10px 50px;
+    height: 700px;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+.headerbox {
+    background-color: grey;
+    height: 80px;
+    border-radius: 10px;
+    margin: 30px 150px;
+    padding-top: 5px;
+}
+
+h1{
+    padding: 5px 10px 0px 10px;
+    color: white;
+}
+
+h3{
+    padding: 5px 10px 0px 10px;
+    color: white;
+}
+
+.navbaricons
+{
+    display: flex;
+    max-width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    left: 200px;
+}
+
+.download {
+    font-size: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: green;
+}
+
+.crossmark {
+    font-size: 25px;
+    color: red;
+}
+
+.zoom_in, .zoom_out{
+    font-size: 25px;
+    color: white;
+}
+
+.buttondiv{
+    float: right;
+    margin: -60px 50px 0px 0px;
+}
+
+.tumblr_icon{
+    height: 25px;
+    font-size: 25px;
+    color: #529ECC;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.donatebutton {
+    font-size: 20px;
+    padding: 2px 20px;
+    color: black;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notescontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center ;
+    font-weight: 600;
+}
+
+.box_containers
+{
+    font-size: 18px;
+    height: 200px;
+    width: 350px;
+    margin: 20px 30px;
+    padding-top: 10px;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.notearea {
+    width: 90%;
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-weight: 700;    
+}
